@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UserDesk - Sign Up</title>
+    <link rel="stylesheet" href="../styles/signup.css" />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="main__brand">UserDesk</h1>
+
+      <section class="form-box">
+        <h2 class="form-box__title">Create an account</h2>
+        <div class="form-box__container">
+          <form action="#" method="post" class="form-box__form">
+            <input
+              name="fullname"
+              id="signup-fullname"
+              type="text"
+              placeholder="Enter your full name"
+              class="form-box__input"
+              autocomplete="fullname"
+              required
+            />
+
+            <input
+              name="email"
+              id="signup-email"
+              type="email"
+              placeholder="Enter your email"
+              class="form-box__input"
+              autocomplete="email"
+              required
+            />
+
+            <input
+              name="username"
+              id="signup-username"
+              type="text"
+              placeholder="Enter your username"
+              class="form-box__input"
+              autocomplete="username"
+              required
+            />
+
+            <input
+              name="password"
+              id="signup-password"
+              type="password"
+              placeholder="Enter your password"
+              class="form-box__input"
+              autocomplete="new-password"
+              required
+            />
+
+            <button type="submit" class="form-box__button">Sign Up</button>
+          </form>
+
+          <p class="form-box__alt-text">
+            Already have an account?
+            <a class="alt-text__link" href="../index.html">Sign In</a>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

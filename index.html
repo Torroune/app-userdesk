@@ -3,7 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>UserDesk - Log In</title>
+    <link rel="stylesheet" href="./styles/index.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="main">
+      <h1 class="main__brand">UserDesk</h1>
+
+      <section class="form-box">
+        <h2 class="form-box__title">Welcome back</h2>
+        <div class="form-box__container">
+          <form action="#" method="post" class="form-box__form">
+            <input
+              name="email"
+              id="login-email"
+              type="email"
+              placeholder="Enter your email"
+              class="form-box__input"
+              autocomplete="email"
+              required
+            />
+
+            <input
+              name="password"
+              id="login-password"
+              type="password"
+              placeholder="Enter your password"
+              class="form-box__input"
+              autocomplete="current-password"
+              required
+            />
+
+            <button type="submit" class="form-box__button">Sign in</button>
+          </form>
+
+          <p class="form-box__alt-text">
+            Don't have an account?
+            <a class="alt-text__link" href="./pages/signup.html">Sign Up</a>
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
