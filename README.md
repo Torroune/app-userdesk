@@ -24,7 +24,7 @@ root/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Torroune/userdesk-frontend.git
+git clone https://github.com/Torroune/app-userdesk.git
 cd app-userdesk
 ```
 
